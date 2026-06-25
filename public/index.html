@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+LAN Transfer
+</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="box">
+
+
+<h1>
+📁⇄📁 LAN TRANSFER
+</h1>
+
+
+
+<button onclick="createRoom()">
+Create Room
+</button>
+
+
+<h2 id="room"></h2>
+
+
+
+<input id="code"
+placeholder="Enter Code">
+
+
+<button onclick="joinRoom()">
+Join
+</button>
+
+
+
+<br>
+
+
+<input type="file"
+id="file">
+
+
+<button onclick="uploadFile()">
+Upload
+</button>
+
+
+
+<h3>
+Files
+</h3>
+
+
+<ul id="list"></ul>
+
+
+</div>
+
+
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
