@@ -22,7 +22,7 @@ const io = new Server(server,{
 app.use(express.static("public"));
 
 
-// upload folder
+//upload folder
 
 const uploadDir = path.join(__dirname,"uploads");
 
